@@ -46,7 +46,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173", "http://localhost:443", "http://localhost:80",
-                   "https://frontend-skt6-production.up.railway.app"],
+                   "https://career-compass-it-trajectory-project-production.up.railway.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
